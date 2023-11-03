@@ -5,7 +5,6 @@ const productsSchema = new mongoose.Schema(
     title: {
       type: String,
       require: true,
-      unique: true,
     },
     content: {
       type: String,
@@ -14,7 +13,6 @@ const productsSchema = new mongoose.Schema(
     author: {
       type: String,
       require: true,
-      unique: true,
     },
     password: {
       type: Number,
